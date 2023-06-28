@@ -12,7 +12,7 @@ export default function Home() {
             <div className="grid gap-2 text-left lg:grid-cols-3">
                 <PaymentCard planName="Founder" price="4200" renew="year" list={["Weekly 1 on 1 sessions to cover personal portfolio"]}></PaymentCard>
                 <PaymentCard planName="Annual" price="1000" renew="year" list={["20% discount"]}></PaymentCard>
-                <PaymentCard planName="Montly" price="100" renew="month"></PaymentCard>
+                <PaymentCard planName="Monthly" price="100" renew="month"></PaymentCard>
             </div>
             <div className="grid gap-5 text-center lg:grid-cols-3 pt-12">
                 <button
