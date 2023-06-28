@@ -1,4 +1,4 @@
-import PaymentCard from "./components/paymentCard";
+import PaymentCard from "./components/PaymentCard";
 import Image from "next/image";
 
 export default function Home() {
