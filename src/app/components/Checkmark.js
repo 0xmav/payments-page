@@ -9,7 +9,7 @@ export default function Checkmark({ item }) {
                     clipRule="evenodd"
                 ></path>
             </svg>
-            <span className="text-base font-normal leading-tight text-gray-500 dark:text-gray-400">{item}</span>
+            <span className="text-base font-normal leading-2 text-gray-500 dark:text-gray-400">{item}</span>
         </>
     );
 }
