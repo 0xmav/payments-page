@@ -33,7 +33,8 @@ export default function Home() {
             </div>
 
             <div className="grid gap-5 text-center lg:grid-cols-4 pt-12">
-                <button
+                <a
+                    href="https://app.unlock-protocol.com/checkout?id=16d9e5ba-e94a-469f-a2a5-f62c5f1e2aae"
                     type="button"
                     className="text-white bg-slate-600 hover:bg-slate-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-4 inline-flex justify-center w-full text-center ease-in duration-100"
                 >
@@ -41,7 +42,7 @@ export default function Home() {
                         <Image src="/ethereum-logo.svg" alt="Eth Logo" width={12} height={12} />{" "}
                     </span>
                     Pay on Ethereum
-                </button>
+                </a>
                 <a
                     href="https://app.unlock-protocol.com/checkout?id=b3c379ac-64c0-4ed3-b1cb-38b2d8c04442"
                     type="button"
