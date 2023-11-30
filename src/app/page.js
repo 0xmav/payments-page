@@ -1,5 +1,5 @@
-import PaymentCard from "./components/PaymentCard";
-import Image from "next/image";
+import PaymentCard from './components/PaymentCard';
+import Image from 'next/image';
 
 export default function Home() {
     return (
@@ -14,54 +14,34 @@ export default function Home() {
                     planName="Founder"
                     price="4200"
                     renew="year"
-                    list={["Everything in Monthly", "1:1 white-glove service including portfolio construction, sourcing OTC deals, and more"]}
+                    list={['Everything in Monthly', '1:1 white-glove service including portfolio construction, sourcing OTC deals, and more']}
                 ></PaymentCard>
-                <PaymentCard planName="Annual" price="1000" renew="year" list={["Everything in Monthly", "17% discount"]}></PaymentCard>
+                <PaymentCard planName="Annual" price="1000" renew="year" list={['Everything in Monthly', '17% discount']}></PaymentCard>
                 <PaymentCard
                     planName="Monthly"
                     price="100"
                     renew="month"
                     list={[
-                        "Weekly investment analysis & references",
-                        "Monthly in-depth reports",
-                        "Personalized investment recommendations",
-                        "Private discord community with high end collectors",
-                        "Live Q&A with industry leaders",
-                        "Early & Free access to collector tools",
+                        'Weekly investment analysis & references',
+                        'Monthly in-depth reports',
+                        'Personalized investment recommendations',
+                        'Private discord community with high end collectors',
+                        'Live Q&A with industry leaders',
+                        'Early & Free access to collector tools',
                     ]}
                 ></PaymentCard>
             </div>
 
-            <div className="grid gap-5 text-center lg:grid-cols-4 pt-12">
+            <div className="grid gap-5 text-center lg:grid-cols-2 pt-12">
                 <a
-                    href="https://app.unlock-protocol.com/checkout?id=16d9e5ba-e94a-469f-a2a5-f62c5f1e2aae"
+                    href="https://checkout.loopcrypto.xyz/84a05fda-58a3-4ec2-9a62-69248d304159/81344b88-3623-4520-bfbe-bcee87dffc0a"
                     type="button"
                     className="text-white bg-slate-600 hover:bg-slate-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-4 inline-flex justify-center w-full text-center ease-in duration-100"
                 >
                     <span className="pr-4">
-                        <Image src="/ethereum-logo.svg" alt="Eth Logo" width={12} height={12} />{" "}
+                        <Image src="/ethereum-logo.svg" alt="Eth Logo" width={12} height={12} />{' '}
                     </span>
-                    Pay on Ethereum
-                </a>
-                <a
-                    href="https://app.unlock-protocol.com/checkout?id=b3c379ac-64c0-4ed3-b1cb-38b2d8c04442"
-                    type="button"
-                    className="text-white bg-sky-600 hover:bg-sky-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-4 inline-flex justify-center w-full text-center ease-in duration-100"
-                >
-                    <span className="pr-4">
-                        <Image src="/arbitrum-logo.svg" alt="Arbitrum Logo" width={18} height={18} />{" "}
-                    </span>
-                    Pay on Arbitrum
-                </a>
-                <a
-                    href="https://app.unlock-protocol.com/checkout?id=c0e28313-db9c-4a5d-8187-c62962ba7527"
-                    type="button"
-                    className="text-white bg-purple-600 hover:bg-purple-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-4 inline-flex justify-center w-full text-center ease-in duration-100"
-                >
-                    <span className="pr-4">
-                        <Image src="/polygon-logo.svg" alt="Polygon Logo" width={18} height={18} />{" "}
-                    </span>
-                    Pay on Polygon
+                    Pay in crypto
                 </a>
                 <a
                     href="/stripe-checkout"
@@ -69,7 +49,7 @@ export default function Home() {
                     className="text-black bg-slate-200 hover:bg-slate-300 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-4 inline-flex justify-center w-full text-center ease-in duration-100"
                 >
                     <span className="pr-4">
-                        <Image src="/stripe-logo.svg" alt="Stripe Logo" width={18} height={18} />{" "}
+                        <Image src="/stripe-logo.svg" alt="Stripe Logo" width={18} height={18} />{' '}
                     </span>
                     Pay in fiat
                 </a>
